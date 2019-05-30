@@ -1,2 +1,25 @@
 {
+  "name": "ckeditor5-iswordcount",
+  "version": "0.0.1",
+  "description": "Word / Paragraph / Character Counter",
+  "main": "./src/iswordcount.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isatria/ckeditor5-iswordcount.git"
+  },
+  "keywords": [
+    "ckeditor5",
+    "ckeditor",
+    "5",
+    "ckeditor"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isatria/ckeditor5-iswordcount/issues"
+  },
+  "homepage": "https://github.com/isatria/ckeditor5-iswordcount#readme"
 }
