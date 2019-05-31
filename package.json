@@ -1,25 +1,27 @@
 {
-  "name": "ckeditor5-iswordcount",
-  "version": "0.0.3",
-  "description": "Word / Paragraph / Character Counter",
-  "main": "./src/iswordcount.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/isatria/ckeditor5-iswordcount.git"
-  },
-  "keywords": [
-    "ckeditor5",
-    "ckeditor",
-    "5",
-    "ckeditor"
-  ],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/isatria/ckeditor5-iswordcount/issues"
-  },
-  "homepage": "https://github.com/isatria/ckeditor5-iswordcount#readme"
+	"name": "ckeditor5-iswordcount",
+	"version": "0.0.3",
+	"description": "CKEditor 5 word count feature",
+	"main": "./src/iswordcount.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/isatria/ckeditor5-iswordcount.git"
+	},
+	"keywords": [
+		"ckeditor",
+		"ckeditor5",
+		"ckeditor 5",
+		"ckeditor 5 feature",
+		"ckeditor 5 plugin",
+		"ckeditor 5 plugin word count"
+	],
+	"author": "",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/isatria/ckeditor5-iswordcount/issues"
+	},
+	"homepage": "https://github.com/isatria/ckeditor5-iswordcount#readme"
 }
