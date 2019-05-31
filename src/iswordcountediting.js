@@ -253,10 +253,6 @@ class ISWordCountEditing extends Plugin {
 				event,
 				data
 			) => {
-				console.log(
-					'KEY UP => ',
-					data
-				);
 				if (
 					ignoredKeycodes.some(
 						keyCode =>
@@ -282,10 +278,6 @@ class ISWordCountEditing extends Plugin {
 				event,
 				data
 			) => {
-				console.log(
-					'Key Down => ',
-					data
-				);
 				let charCount = -1;
 
 				const text = editor.getData(
