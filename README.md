@@ -2,6 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/ckeditor5-iswordcount.svg)](https://www.npmjs.com/package/ckeditor5-iswordcount)
 [![npm download](https://img.shields.io/npm/dt/ckeditor5-iswordcount.svg)](https://www.npmjs.com/package/ckeditor5-iswordcount)
+[![npm license](https://img.shields.io/npm/l/ckeditor5-iswordcount.svg)](https://www.npmjs.com/package/ckeditor5-iswordcount)
 
 This package implements characters count support for CKEditor 5.
 
