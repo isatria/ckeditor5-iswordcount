@@ -11,10 +11,10 @@ This package implements characters count support for CKEditor 5.
 This code is a code refactor from [Word Count & Char Count Plugin](https://ckeditor.com/cke4/addon/wordcount) for CKEditor4. This plugin is far from perfect so it is expected to understand the limitations of the features.
 
 ## **Feature**
-
-- ✓ Char Count
-- 𐄂 Word Count
-- 𐄂 Paragraph Count
+ 
+- [x] Char Count
+- [ ] Word Count
+- [ ] Paragraph Count
 
 ## **Installation**
 
