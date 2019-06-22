@@ -222,9 +222,8 @@ class ISWordCountEditing extends Plugin {
 				limitReached(
 					true
 				);
-				editor.execute(
-					'delete'
-				);
+				event.stop();
+				data.preventDefault();
 				charCount -= 1;
 			} else if (
 				config.maxCharCount ==
