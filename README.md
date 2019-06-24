@@ -33,7 +33,7 @@ ClassicEditor
     .create( document.querySelector( '#editor' ), {
         plugins: [ ISWordCount, ... ],
         toolbar: [ 'iswordcount', ... ]
-        iswordcount: { maxCharCount: 10 }
+        iswordcount: { maxCharCount: 10, maxHandler: (charCount, maxCharCount) => alert('Reach maximum limit!') }
     } )
     .then( ... )
     .catch( ... );
