@@ -49,6 +49,7 @@ class ISWordCountEditing extends Plugin {
 
 			// Max Length Properties
 			maxCharCount: -1,
+			maxHandler: () => {},
 
 			// Filter
 			filter: null,
@@ -278,7 +279,6 @@ class ISWordCountEditing extends Plugin {
 				data
 			) => {
 				let charCount = -1;
-
 				const text = editor.getData(
 					{
 						trim:
@@ -359,6 +359,8 @@ class ISWordCountEditing extends Plugin {
 						config.maxCharCount &&
 					config.hardLimit
 				) {
+					const { maxHandler } = config
+					maxHandler(charCount, config.maxCharCount);
 					event.stop();
 					data.preventDefault();
 				}
