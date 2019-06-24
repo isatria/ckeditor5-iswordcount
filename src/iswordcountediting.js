@@ -360,7 +360,8 @@ class ISWordCountEditing extends Plugin {
 					config.hardLimit
 				) {
 					const { maxHandler } = config
-					maxHandler(charCount, config.maxCharCount);
+					if (typeof(maxHandler) === 'function') { maxHandler(charCount, config.maxCharCount) };
+					
 					event.stop();
 					data.preventDefault();
 				}
