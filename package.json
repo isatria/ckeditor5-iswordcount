@@ -1,6 +1,6 @@
 {
 	"name": "ckeditor5-iswordcount",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"description": "CKEditor 5 word count feature",
 	"main": "./src/iswordcount.js",
 	"scripts": {
